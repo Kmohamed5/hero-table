@@ -67,7 +67,7 @@ a:active {
       <li id=smweakness1></li>
       <li id=smweakness2></li>
     </td>
-    <td> <button type="button" onclick="alert('YES HE HAS BOTH CANONICALY AND NON-CANONICALY!')"><span title="click me">HOVER</span></button></td>
+    <td id="superheroone"></td>
     <td> <a href="https://en.wikipedia.org/wiki/Superman">Superman</a>
   </tr>
   <tr style= background-color:#ff1a1a>
@@ -81,7 +81,7 @@ a:active {
     </td>
     <td> Yes </td>
     <td id=spmweakness></td>
-    <td><button type="button" onclick="alert('YES HE HAS BOTH CANONICALY AND NON-CANONICALY!')"><span title="click me">HOVER</span></button></td>
+    <td id="superherotwo"></td>
     <td> <a href="https://en.wikipedia.org/wiki/Spider-Man">Spiderman</a></td>
   </tr>
   <tr>
@@ -96,7 +96,7 @@ a:active {
 
 
     <td id=bweakness></td>
-    <td><button type="button" onclick="alert('NO AND YES CANONICALY HE HASNT BUT NON-CANONICALY HE HAS!')"><span title="click me">HOVER</span></button></td>
+    <td id="superherothree"></td>
    <td> <a href="https://en.wikipedia.org/wiki/Batman">Batman</a></td>
   </tr>
   <tr style=background-color:#ffd11a>
@@ -111,7 +111,7 @@ a:active {
     </td>
     <td> Yes </td>
     <td id=wweakness></td>
-    <td><button type="button" onclick="alert('YES SHES A PRO MURDERING BAD GUYS KINDA LADY!!')"><span title="click me">HOVER</span></button></td>
+    <td id="superherofour"></td>
     <td> <a href="https://en.wikipedia.org/wiki/wonder woman">Wonderwoman</a></td>
   </tr>
   <tr style=background-color:#ffffff>
@@ -120,9 +120,8 @@ a:active {
     <td> Everything a human has but several times better.</td>
     <td> No </td>
     <td> Anything that kills a normal person </td>
-    <td><button type="button" onclick="alert('YES HE WAS A SOLDIER AND WHILE HE DOESNT KILL ANYMORE HE HAS BEFORE!')"><span title="click me">HOVER</span></button></td>
+    <td id="superherofive"></td>
     <td> <a href="https://en.wikipedia.org/wiki/captain america">Captain America</a></td>
-
   </tr>
   <tr style=background-color:#e60000>
     <td id=Superg></td>
@@ -139,7 +138,7 @@ a:active {
       <li id=sgweakness1></li>
       <li id=sgweakness2></li>
     </td>
-    <td> <button type="button" onclick="alert('YES HE HAS BOTH CANONICALY AND NON-CANONICALY!')"><span title="click me">HOVER</span></button></td>
+    <td id="superherosix"></td>
     <td> <a href="https://en.wikipedia.org/wiki/supergirl">Supergirl</a></td>
   </tr>
   <tr style=background-color:#009900>
@@ -156,7 +155,7 @@ a:active {
       <li id=gweakness1></li>
     <li id=gweakness2></li>
   </td>
- <td> <button type="button" onclick="alert('YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact he in one story killed all of the lanters and technically became a god)')"><span title="click me">HOVER</span></button></td></td>
+ <td id="superheroseven"></td>
   <td> <a href="https://en.wikipedia.org/wiki/green lantern">green lantern</a></td>
 </table>
 <script>
@@ -515,5 +514,110 @@ var green = {weakness:"Losing his ring",};
 
 // Display some data from the object:
 document.getElementById("gweakness2").innerHTML = green.weakness;
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[5];
+var superManById = document.getElementById("superheroone");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
+});
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[12];
+var superManById = document.getElementById("superherotwo");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
+});
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[19];
+var superManById = document.getElementById("superherothree");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("NO AND YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
+});
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[26];
+var superManById = document.getElementById("superherofour");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("YES SHES A PRO MURDERING BAD GUYS KINDA LADY!!");
+});
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[33];
+var superManById = document.getElementById("superherofive");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("YES HE WAS A SOLDIER AND WHILE HE DOESNT KILL ANYMORE HE HAS BEFORE!");
+});
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[40];
+var superManById = document.getElementById("superherosix");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
+});
+</script>
+<script>
+// 1. Create the button
+var button = document.createElement("button");
+button.innerHTML = "Click me";
+
+// 2. Append somewhere
+var dave = document.getElementsByTagName("td")[47];
+var superManById = document.getElementById("superheroseven");
+dave.appendChild(button);
+
+// 3. Add event handler
+button.addEventListener ("click", function() {
+  alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact he in one story killed all of the lanters and technically became a god)");
+});
 </script>
 </body>
