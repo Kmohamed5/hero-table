@@ -1,8 +1,41 @@
-
-body {
+ody {
 
    background-image: url("C:/Users/kmohame5/Desktop/hero-table/superhero-png--475");
     background-repeat: no-repeat;
    background-position: right ;
      margin-right: 200px;
 }
+table {
+font-family: times new roman, serif;
+    border-collapse: collapse;
+    width: 1%;
+}
+td, th {
+    border: 1px solid #FFFFFF;
+    text-align: left;
+    padding: 8px;
+}
+tr:nth-child(even) {
+    background-color: #bbbbbb;
+}
+  a:link {
+    color: #3E73E9;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:visited {
+    color: #BF0C96;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
