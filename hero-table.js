@@ -1,4 +1,6 @@
 
+window.onload = function() {
+
 // Create an object:
 var superm = {smname:"Super Man",};
 
@@ -459,3 +461,4 @@ dave.appendChild(button);
 button.addEventListener ("click", function() {
   alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact he in one story killed all of the lanters and technically became a god)");
 });
+}
