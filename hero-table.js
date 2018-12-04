@@ -1,363 +1,116 @@
-
 window.onload = function() {
 
 // Create an object:
-var superm = {smname:"Super Man",};
+var superm = {smname:"Super Man",smidentity:"Kale-El",powers1:"super speed",powers2:"super strength",powers3:"Flying",powers4:"Ice Breath",powers5:"Ect..",smweakness1:"Kyryptonite",
+smweakness2:"Not having access to the sun",spmname:"Spider Man",spmidentity:"Peter Parker",powers6:"Super Strength",powers7:"Spider Sense",powers8:"Shoots Webs",powers9:"Sticks To Any Surface",
+weakness3:"Bullets and anything that kills a normal person",bname:"Batman",bidentity:"Bruce Wayne",bpower1:"special weapons",bpower2:"Money",bpower3:"Knows every form of martial arts",bweakness:"Anything that would kill a normal person.",
+wname:"Wonder Woman",widentity:"Diana Prince",wpowers1:"Super strength",wpowers2:"Flight",wpowers3:"Semi-Invulnerable",wpowers4:"Super Speed",wpowers5:"Lasso Of Truth",wweakness:"Brute force from a god or someone stronger then her",
+sname:"Captain America",steve:"Steve Rogers",cpower:" Anything that a normal person can do but a million times better.",cweakness:" Anything that kills a normal person.",sgname:"Super Girl",kara:"Kara Zor-el",
+powers10:"super speed",powers11:"super strength",powers12:"Flying",powers13:"Ice Breath",powers14:"Ect..",weakness4:"Kyryptonite",weakness5:"Not having access to the sun",gname:"Green Lantern",Hal:"Hal Jordan",
+powers15:"Creates anything they can imagine out of green constructs",powers16:"Universal translator",powers17:"Flying",powers18:"Can breath in space",weakness6:"Anything that kills a normal person",weakness7:"Losing his ring",};
 
 // Display some data from the object:
-document.getElementById("superman").innerHTML = superm.smname;
-
-
-// Create an object:
-var superm = {smidentity:"Kal-El",};
-
+document.getElementById("superman").innerHTML = superm.smname,
+// Display some data from the object:
+document.getElementById("clark").innerHTML = superm.smidentity,
+// Display some data from the object:
+document.getElementById("smpowers1").innerHTML = superm.powers1,
+// Display some data from the object:
+document.getElementById("smpowers2").innerHTML = superm.powers2,
+// Display some data from the object:
+document.getElementById("smpowers3").innerHTML = superm.powers3,
+// Display some data from the object:
+document.getElementById("smpowers4").innerHTML = superm.powers4,
+// Display some data from the object:
+document.getElementById("smpowers5").innerHTML = superm.powers5,
+// Display some data from the object:
+document.getElementById("smweakness1").innerHTML = superm.smweakness1,
+// Display some data from the object:
+document.getElementById("smweakness2").innerHTML = superm.smweakness2,
+// Display some data from the object:
+document.getElementById("spmidentity").innerHTML = superm.spmname,
 // Display some data from the object
-document.getElementById("clark").innerHTML = superm.smidentity;
-
-
-// Create an object:
-var superm = {powers:"super speed",};
-
+document.getElementById("Peter").innerHTML = superm.spmidentity,
 // Display some data from the object:
-document.getElementById("smpowers1").innerHTML = superm.powers;
-
-
-// Create an object:
-var superm = {powers:"super strength",};
-
+document.getElementById("spmpowers1").innerHTML = superm.powers6,
 // Display some data from the object:
-document.getElementById("smpowers2").innerHTML = superm.powers;
-
-
-// Create an object:
-var superm = {powers:"Flying",};
-
+document.getElementById("spmpowers2").innerHTML = superm.powers7,
 // Display some data from the object:
-document.getElementById("smpowers3").innerHTML = superm.powers;
-
-
-// Create an object:
-var superm = {powers:"Ice Breath",};
-
+document.getElementById("spmpowers3").innerHTML = superm.powers8,
 // Display some data from the object:
-document.getElementById("smpowers4").innerHTML = superm.powers;
-
-
-// Create an object:
-var superm = {powers:"Ect..",};
-
+document.getElementById("spmpowers4").innerHTML = superm.powers9,
 // Display some data from the object:
-document.getElementById("smpowers5").innerHTML = superm.powers;
-
-
-// Create an object:
-var superm = {weakness:"Kyryptonite",};
-
+document.getElementById("spmweakness").innerHTML = superm.weakness3,
 // Display some data from the object:
-document.getElementById("smweakness1").innerHTML = superm.weakness;
-
-
-// Create an object:
-var superm = {weakness:"Not having access to the sun",};
-
+document.getElementById("bat").innerHTML = superm.bname,
 // Display some data from the object:
-document.getElementById("smweakness2").innerHTML = superm.weakness;
-
-
-// Create an object:
-var spider = {spmname:"Spider Man",};
-
-// Display some data from the object:spider
-document.getElementById("spmidentity").innerHTML = spider.spmname;
-
-
-// Create an object:
-var spider = {spmidentity:"Peter Parker",};
-
-// Display some data from the object
-document.getElementById("Peter").innerHTML = spider.spmidentity;
-
-
-// Create an object:
-var spider = {powers:"Super Strength",};
-
+document.getElementById("bruce").innerHTML = superm.bidentity,
 // Display some data from the object:
-document.getElementById("spmpowers1").innerHTML = spider.powers;
-
-
-// Create an object:
-var spider = {powers:"Spider Sense",};
-
+document.getElementById("bpower1").innerHTML = superm.bpower1,
 // Display some data from the object:
-document.getElementById("spmpowers2").innerHTML = spider.powers;
-
-
-// Create an object:
-var spider = {powers:"Shoots Webs",};
-
+document.getElementById("bpower2").innerHTML = superm.bpower2,
 // Display some data from the object:
-document.getElementById("spmpowers3").innerHTML = spider.powers;
-
-
-// Create an object:
-var spider = {powers:"Sticks To Any Surface",};
-
+document.getElementById("bpower3").innerHTML = superm.bpower3,
 // Display some data from the object:
-document.getElementById("spmpowers4").innerHTML = spider.powers;
-
-
-// Create an object:
-var spider = {weakness:"Bullets and anything that kills a normal person",};
-
+document.getElementById("bweakness").innerHTML = superm.bweakness,
 // Display some data from the object:
-document.getElementById("spmweakness").innerHTML = spider.weakness;
-
-
-// Create an object:
-var bat = {bname:"Batman",};
-
+document.getElementById("wonder").innerHTML = superm.wname,
 // Display some data from the object:
-document.getElementById("bat").innerHTML = bat.bname;
-
-
-// Create an object:
-var bat = {bidentity:"Bruce Wayne",};
-
+document.getElementById("Diana").innerHTML = superm.widentity,
 // Display some data from the object:
-document.getElementById("bruce").innerHTML = bat.bidentity;
-
-
-// Create an object:
-var bat = {bpower:"special weapons",};
-
+document.getElementById("wpowers1").innerHTML = superm.wpowers1,
 // Display some data from the object:
-document.getElementById("bpower1").innerHTML = bat.bpower;
-
-
-// Create an object:
-var bat = {bpower:"Money",};
-
+document.getElementById("wpowers2").innerHTML = superm.wpowers2,
 // Display some data from the object:
-document.getElementById("bpower2").innerHTML = bat.bpower;
-
-
-// Create an object:
-var bat = {bpower:"Knows every form of martial arts",};
-
+document.getElementById("wpowers3").innerHTML = superm.wpowers3,
 // Display some data from the object:
-document.getElementById("bpower3").innerHTML = bat.bpower;
-
-
-// Create an object:
-var bat = {bweakness:"Anything that would kill a normal person.",};
-
+document.getElementById("wpowers4").innerHTML = superm.wpowers4,
 // Display some data from the object:
-document.getElementById("bweakness").innerHTML = bat.bweakness;
-
-
-// Create an object:
-var wonder = {sname:"Wonder Woman",};
-
+document.getElementById("wpowers5").innerHTML = superm.wpowers5,
 // Display some data from the object:
-document.getElementById("wonder").innerHTML = wonder.sname;
-
-
-// Create an object:
-var wonder = {widentity:"Diana Prince",};
-
+document.getElementById("wweakness").innerHTML = superm.wweakness,
 // Display some data from the object:
-document.getElementById("Diana").innerHTML = wonder.widentity;
-
-
-// Create an object:
-var wonder = {wpowers:"Super strength",};
-
+document.getElementById("cap").innerHTML = superm.sname,
 // Display some data from the object:
-document.getElementById("wpowers1").innerHTML = wonder.wpowers;
-
-
-// Create an object:
-var wonder = {wpowers:"Flight",};
-
+document.getElementById("steve").innerHTML = superm.steve,
 // Display some data from the object:
-document.getElementById("wpowers2").innerHTML = wonder.wpowers;
-
-
-// Create an object:
-var wonder = {wpowers:"Semi-Invulnerable",};
-
+document.getElementById("cpower").innerHTML = superm.cpower,
 // Display some data from the object:
-document.getElementById("wpowers3").innerHTML = wonder.wpowers;
-
-
-// Create an object:
-var wonder = {wpowers:"Super Speed",};
-
+document.getElementById("cweakness").innerHTML = superm.cweakness,
 // Display some data from the object:
-document.getElementById("wpowers4").innerHTML = wonder.wpowers;
-
-
-// Create an object:
-var wonder = {wpowers:"Lasso Of Truth",};
-
+document.getElementById("Superg").innerHTML = superm.sgname,
 // Display some data from the object:
-document.getElementById("wpowers5").innerHTML = wonder.wpowers;
-
-
-// Create an object:
-var wonder = {wpowers:"Brute force from a god or someone stronger then her",};
-
+document.getElementById("kara").innerHTML = superm.kara,
 // Display some data from the object:
-document.getElementById("wweakness").innerHTML = wonder.wpowers;
-
-
-// Create an object:
-var cap = {sname:"Captain America",};
-
+document.getElementById("sgpowers1").innerHTML = superm.powers10,
 // Display some data from the object:
-document.getElementById("cap").innerHTML = cap.sname;
-
-
-// Create an object:
-var cap = {steve:"Steve Rogers",};
-
+document.getElementById("sgpowers2").innerHTML = superm.powers11,
 // Display some data from the object:
-document.getElementById("steve").innerHTML = cap.steve;
-
-
-// Create an object:
-var cap = {cpower:" Anything that a normal person can do but a million times better.",};
-
+document.getElementById("sgpowers3").innerHTML = superm.powers12,
 // Display some data from the object:
-document.getElementById("cpower").innerHTML = cap.cpower;
-
-
-// Create an object:
-var cap = {cweakness:" Anything that kills a normal person.",};
-
+document.getElementById("sgpowers4").innerHTML = superm.powers13,
 // Display some data from the object:
-document.getElementById("cweakness").innerHTML = cap.cweakness;
-
-
-// Create an object:
-var supg = {sname:"Super Girl",};
-
+document.getElementById("sgpowers5").innerHTML = superm.powers14,
 // Display some data from the object:
-document.getElementById("Superg").innerHTML = supg.sname;
-
-
-// Create an object:
-var supg = {kara:"Kara Zor-el",};
-
+document.getElementById("sgweakness1").innerHTML = superm.weakness4,
 // Display some data from the object:
-document.getElementById("kara").innerHTML = supg.kara;
-
-
-// Create an object:
-var superg = {powers:"super speed",};
-
+document.getElementById("sgweakness2").innerHTML = superm.weakness5,
 // Display some data from the object:
-document.getElementById("sgpowers1").innerHTML = superg.powers;
-
-
-// Create an object:
-var superg = {powers:"super strength",};
-
+document.getElementById("green").innerHTML = superm.gname,
 // Display some data from the object:
-document.getElementById("sgpowers2").innerHTML = superg.powers;
-
-
-// Create an object:
-var superg = {powers:"Flying",};
-
+document.getElementById("hal").innerHTML = superm.Hal,
 // Display some data from the object:
-document.getElementById("sgpowers3").innerHTML = superg.powers;
-
-
-// Create an object:
-var superg = {powers:"Ice Breath",};
-
+document.getElementById("gpowers1").innerHTML = superm.powers15,
 // Display some data from the object:
-document.getElementById("sgpowers4").innerHTML = superg.powers;
-
-
-// Create an object:
-var superg = {powers:"Ect..",};
-
+document.getElementById("gpowers2").innerHTML = superm.powers16,
 // Display some data from the object:
-document.getElementById("sgpowers5").innerHTML = superg.powers;
-
-
-// Create an object:
-var superg = {weakness:"Kyryptonite",};
-
+document.getElementById("gpowers3").innerHTML = superm.powers17,
 // Display some data from the object:
-document.getElementById("sgweakness1").innerHTML = superg.weakness;
-
-
-// Create an object:
-var superg = {weakness:"Not having access to the sun",};
-
+document.getElementById("gpowers4").innerHTML = superm.powers18,
 // Display some data from the object:
-document.getElementById("sgweakness2").innerHTML = superg.weakness;
-
-
-// Create an object:
-var green = {sname:"Green Lantern",};
-
+document.getElementById("gweakness1").innerHTML = superm.weakness6,
 // Display some data from the object:
-document.getElementById("green").innerHTML = green.sname;
-
-
-// Create an object:
-var green = {Hal:"Hal Jordan",};
-
-// Display some data from the object:
-document.getElementById("hal").innerHTML = green.Hal;
-
-
-// Create an object:
-var green = {powers:"Creates anything they can imagine out of green constructs",};
-
-// Display some data from the object:
-document.getElementById("gpowers1").innerHTML = green.powers;
-
-
-// Create an object:
-var green = {powers:"Universal translator",};
-
-// Display some data from the object:
-document.getElementById("gpowers2").innerHTML = green.powers;
-
-
-// Create an object:
-var green = {powers:"Flying",};
-
-// Display some data from the object:
-document.getElementById("gpowers3").innerHTML = green.powers;
-
-
-// Create an object:
-var green = {powers:"Can breath in space",};
-
-// Display some data from the object:
-document.getElementById("gpowers4").innerHTML = green.powers;
-
-
-// Create an object:
-var green = {weakness:"Anything that kills a normal person",};
-
-// Display some data from the object:
-document.getElementById("gweakness1").innerHTML = green.weakness;
-
-
-// Create an object:
-var green = {weakness:"Losing his ring",};
-
-// Display some data from the object:
-document.getElementById("gweakness2").innerHTML = green.weakness;
-
-
+document.getElementById("gweakness2").innerHTML = superm.weakness7;
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
