@@ -114,102 +114,76 @@ document.getElementById("gweakness2").innerHTML = superm.weakness7;
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[5];
 var superManById = document.getElementById("superheroone");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
 });
-
-
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[12];
 var superManById = document.getElementById("superherotwo");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
 });
-
-
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[19];
 var superManById = document.getElementById("superherothree");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("NO AND YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
 });
-
-
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[26];
 var superManById = document.getElementById("superherofour");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("YES SHES A PRO MURDERING BAD GUYS KINDA LADY!!");
 });
-
-
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[33];
 var superManById = document.getElementById("superherofive");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("YES HE WAS A SOLDIER AND WHILE HE DOESNT KILL ANYMORE HE HAS BEFORE!");
 });
-
-
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[40];
 var superManById = document.getElementById("superherosix");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY!");
 });
-
-
 // 1. Create the button
 var button = document.createElement("button");
 button.innerHTML = "Click me";
-
 // 2. Append somewhere
 var dave = document.getElementsByTagName("td")[47];
 var superManById = document.getElementById("superheroseven");
 dave.appendChild(button);
-
 // 3. Add event handler
 button.addEventListener ("click", function() {
   alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact he in one story killed all of the lanters and technically became a god)");
