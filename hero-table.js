@@ -1,52 +1,53 @@
+window.onload = function() {
 
     superman = {
     name: "Super Man",
     identity: "Kal-EL",
     powers:["*super speed","*super strength","*Flying","*Ice Breath","*Ect.."],
-    weaknesses:["*Kyryptonite","*Not having access to the sun"]
-    yesorno:"Yes"
+    weaknesses:["*Kyryptonite","*Not having access to the sun"],
+    yes:"Yes"
 }
     spiderman = {
     name: "Spider Man",
     identity: "Peter Parker",
     powers:["*Super Strength","*Spider Sense","*Shoots Webs","*Sticks To Any Surface"],
-    weaknesses:"Bullets and anything that kills a normal person"
-    yesorno:"Yes"
+    weaknesses:"Bullets and anything that kills a normal person",
+    yesorno: "Yes"
 }
     batman = {
     name: "Bat Man",
     identity: "Bruce Wayne",
     powers:["*special weapons","*Money","*Knows every form of martial arts"],
-    weaknesses:"Anything that would kill a normal person."
-    yesorno:"Yes"
+    weaknesses:"Anything that would kill a normal person.",
+    yes: "Yes"
 }
     wonderwoman = {
     name: "Wonder Woman",
     identity: "Diana Prince",
     powers:["*Super strength","*Flight","*Semi-Invulnerable","*Super Speed","*Lasso Of Truth"],
     weaknesses:"Brute force from a god or someone stronger then her",
-    yesorno:"Yes"
+    yes: "Yes"
 }
     captainamerica = {
     name: "Captain America",
     identity: "Steve Rogers",
     powers:" Anything that a normal person can do but a million times better.",
-    weaknesses:"Anything that would kill a normal person."
-    yesorno:"Yes"
+    weaknesses:"Anything that would kill a normal person.",
+    yes: "No"
 }
     supergirl = {
     name: "Super Girl",
     identity: "Kara Zor-El",
     powers:["*super speed","*super strength","*Flying","*Ice Breath","*Ect.."],
-    weaknesses:["*Kyryptonite","*Not having access to the sun"]
-    yesorno:"Yes"
+    weaknesses:["*Kyryptonite","*Not having access to the sun"],
+    yes:"Yes"
 }
     greenlantern = {
     name: "Green Lantern",
     identity: "Hal Jordan",
     powers:["*Creates anything they can imagine out of green constructs","*Universal translator","*Flying","*Can breath in space"],
-    weaknesses:["*Anything that kills a normal person","*Losing his ring"]
-    yesorno:"Yes"
+    weaknesses:["*Anything that kills a normal person","*Losing his ring"],
+    yes: "Yes"
 }
 
 const superHeroArray = [superman,spiderman,batman,wonderwoman,captainamerica,supergirl,greenlantern];
@@ -64,9 +65,9 @@ for (var i=0; i<superHeroArray.length; i++) {
     const weaknessesValue = superHeroArray[i].weaknesses
     const weaknessesId = "weaknesses-"+i;
     document.getElementById(weaknessesId).innerHTML = weaknessesValue
-    const yesornoValue = superHeroArray[i].weaknesses
-    const yesornoId = "weaknesses-"+i;
-    document.getElementById(yesornoId).innerHTML = yesornoValue
+    const yesValue = superHeroArray[i].yes
+    const yesId = "yes-"+i;
+    document.getElementById(yesId).innerHTML = yesValue
 }
 // 1. Create the button
 var button = document.createElement("button");
@@ -145,3 +146,5 @@ dave.appendChild(button);
 button.addEventListener ("click", function() {
   alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact he in one story killed all of the lanters and technically became a god)");
 });
+
+}
