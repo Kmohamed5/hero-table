@@ -12,7 +12,7 @@ window.onload = function() {
     identity: "Peter Parker",
     powers:["*Super Strength","*Spider Sense","*Shoots Webs","*Sticks To Any Surface"],
     weaknesses:"Bullets and anything that kills a normal person",
-    yesorno: "Yes"
+    yes: "Yes"
 }
     batman = {
     name: "Bat Man",
