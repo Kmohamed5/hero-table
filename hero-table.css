@@ -1,9 +1,8 @@
 body {
-
-   background-image: url("C:/Users/kmohame5/Desktop/hero-table/superhero-png--475");
-    background-repeat: no-repeat;
-   background-position: right ;
-     margin-right: 200px;
+ background:url(https://png.pngtree.com/png_detail/20181009/superman-comics-png-clipart_3157255.png);
+  background-size:cover;
+  background-position:center center;
+  background-attachment:fixed;
 }
 table {
 font-family: times new roman, serif;
@@ -38,4 +37,3 @@ a:active {
     background-color: transparent;
     text-decoration: underline;
 }
-
