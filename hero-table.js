@@ -3,7 +3,7 @@ window.onload = function() {
     superman = {
     name: "Super Man",
     identity: "Kal-EL",
-    powers:["*super speed","*super strength","*Flying","*Ice Breath","*Ect.."],
+    powers:["*Super speed","*Super strength","*Flying","*Ice Breath","*Ect.."],
     weaknesses:["*Kyryptonite","*Not having access to the sun"],
     yes:"Yes"
 }
@@ -17,7 +17,7 @@ window.onload = function() {
     batman = {
     name: "Bat Man",
     identity: "Bruce Wayne",
-    powers:["*special weapons","*Money","*Knows every form of martial arts"],
+    powers:["*Special weapons","*Money","*Knows every form of martial arts"],
     weaknesses:"Anything that would kill a normal person.",
     yes: "Yes"
 }
@@ -31,21 +31,21 @@ window.onload = function() {
     captainamerica = {
     name: "Captain America",
     identity: "Steve Rogers",
-    powers:" Anything that a normal person can do but a million times better.",
+    powers:" Does anything that a normal person can do but a million times better.",
     weaknesses:"Anything that would kill a normal person.",
     yes: "No"
 }
     supergirl = {
     name: "Super Girl",
     identity: "Kara Zor-El",
-    powers:["*super speed","*super strength","*Flying","*Ice Breath","*Ect.."],
+    powers:["*Super speed","*Super strength","*Flying","*Ice Breath","*Ect.."],
     weaknesses:["*Kyryptonite","*Not having access to the sun"],
     yes:"Yes"
 }
     greenlantern = {
     name: "Green Lantern",
     identity: "Hal Jordan",
-    powers:["*Creates anything they can imagine out of green constructs","*Universal translator","*Flying","*Can breath in space"],
+    powers:["*Creates anything he can imagine out of green constructs","*Universal translator","*Flying","*Can breath in space"],
     weaknesses:["*Anything that kills a normal person","*Losing his ring"],
     yes: "Yes"
 }
@@ -111,7 +111,7 @@ var superManById = document.getElementById("superherofour");
 dave.appendChild(button);
 // 3. Add event handler
 button.addEventListener ("click", function() {
-  alert("YES SHES A PRO MURDERING BAD GUYS KINDA LADY!!");
+  alert("YES SHES A PRO, MURDERING BAD GUYS KINDA LADY!!");
 });
 // 1. Create the button
 var button = document.createElement("button");
@@ -144,7 +144,7 @@ var superManById = document.getElementById("superheroseven");
 dave.appendChild(button);
 // 3. Add event handler
 button.addEventListener ("click", function() {
-  alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact he in one story killed all of the lanters and technically became a god)");
+  alert("YES HE HAS BOTH CANONICALY AND NON-CANONICALY! (fun fact in one story he killed all of the lanters and technically became a god)");
 });
 
 }
